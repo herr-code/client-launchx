@@ -7,6 +7,12 @@ const routes =  [
     component: () => import("./components/ExplorersList")
   },
   {
+    path: "/missionCommanders",
+    alias: "/missionCommanders",
+    name: "missionCommanders",
+    component: () => import("./components/CommandersList")
+  },
+  {
     path: "/explorer/:id",
     name: "explorer-details",
     component: () => import("./components/Explorer")
