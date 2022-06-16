@@ -6,7 +6,7 @@ Esta es una práctica fullstack ya que tenemos un [backend](https://github.com/h
 
 ## :electric_plug: Funcionamiento
 
-![diagram](https://user-images.githubusercontent.com/61515833/173716529-ee07a6ea-5e28-4343-b141-48617f5ef204.png)
+![diagramfinal](https://user-images.githubusercontent.com/61515833/174150805-b1d448ff-b13b-4439-b576-0dc516b47945.png)
 
 [Vue](https://vuejs.org/) es un framework progresivo eficaz y versátil para crear interfaces de usuario. Se basa en HTML, CSS y JS estándar, es escalable y accesible. Esta práctica integra [Bootstrap 4](https://getbootstrap.com/) para aplicar unos estilos base y [Axios](https://axios-http.com/es/) para realizar los `request` a la API. Existen diversas formas de trabajar con Vue pero en este pryecto se hablará de [Single-File Components (SFC)](https://vuejs.org/guide/introduction.html#single-file-components) y [Options API](https://vuejs.org/guide/introduction.html#api-styles). Puede revisar mas detalles en [Vue.org](https://vuejs.org/guide/introduction.html).
 
@@ -109,7 +109,7 @@ export default axios.create({
   }
 });
 ```
-### Services
+### **Services**
 
 Aquí está el archivo `ExplorerService` que hará uso de `http-common` para realizar las peticiones a la API e interactuar con los componentes para renderizar la información. Ejemplo de un método para pedir todos los explorers disponibles:
 
@@ -124,6 +124,21 @@ class ExplorerService {
 
 export default new ExplorerService();
 ```
+
+## :cinema: **Resultados**
+
+Mostrar lista de commanders y agregar un nuevo commander:
+
+![Animation1](https://user-images.githubusercontent.com/61515833/174148954-550fc976-5fa5-47fd-a806-cf27aa061c14.gif)
+
+Editar mainStack de un commander:
+
+![Animation2](https://user-images.githubusercontent.com/61515833/174149414-473549c5-f0ba-4861-9c52-48dc842f1659.gif)
+
+Eliminar un commander:
+
+![Animation3](https://user-images.githubusercontent.com/61515833/174149676-8f9bff29-2f58-4e28-b275-0543d7102f3b.gif)
+
 ## Project setup
 ```
 npm install
