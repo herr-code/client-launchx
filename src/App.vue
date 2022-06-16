@@ -12,6 +12,9 @@
         <li class="nav-item">
           <router-link to="/missionCommanders" class="nav-link">Mission Commanders</router-link>
         </li>
+        <li class="nav-item">
+          <router-link to="/addCommander" class="nav-link">Agregar Commander</router-link>
+        </li>
       </div>
     </nav>
     <div class="container mt-3">

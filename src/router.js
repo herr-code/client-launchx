@@ -21,6 +21,11 @@ const routes =  [
     path: "/add",
     name: "add-explorer",
     component: () => import("./components/AddExplorer")
+  },
+  {
+    path: "/addCommander",
+    name: "add-commander",
+    component: () => import("./components/AddCommander")
   }
 ];
 const router = createRouter({
